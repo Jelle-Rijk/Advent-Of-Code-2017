@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Build-Jdk-Spec: 21
-Class-Path: lib/javafx-controls-21.0.8.jar lib/javafx-controls-21.0.8-li
- nux.jar lib/javafx-graphics-21.0.8.jar lib/javafx-graphics-21.0.8-linux
- .jar lib/javafx-base-21.0.8.jar lib/javafx-base-21.0.8-linux.jar
-Main-Class: com.jellerijk.aoc.aoc2017.App
-Created-By: Maven Integration for Eclipse
-
