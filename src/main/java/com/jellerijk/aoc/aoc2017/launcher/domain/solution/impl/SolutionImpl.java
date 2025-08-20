@@ -19,7 +19,9 @@ public abstract class SolutionImpl implements Solution {
 		initGUI();
 	}
 
-
+	/**
+	 * Creates a Scene object that is then set as the GUI for this Solution.
+	 */
 	protected abstract void initGUI();
 
 	// GETTERS - SETTERS
