@@ -19,7 +19,7 @@ public abstract class TextAreaInput extends VBox {
 		setLayout();
 	}
 
-	public void setLayout() {
+	private void setLayout() {
 		setPrefWidth(300);
 		setSpacing(5);
 		setPadding(new Insets(5));
