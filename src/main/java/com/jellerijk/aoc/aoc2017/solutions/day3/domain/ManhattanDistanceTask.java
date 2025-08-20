@@ -76,14 +76,6 @@ public class ManhattanDistanceTask extends Task<Integer> {
 		return Math.abs(x1 - x2) + Math.abs(y1 - y2);
 	}
 
-	private int getX() {
-		return x;
-	}
-
-	private int getY() {
-		return y;
-	}
-
 	private void setX(int x) {
 		this.x = x;
 	}
