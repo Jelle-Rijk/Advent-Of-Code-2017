@@ -1,0 +1,17 @@
+@startuml
+
+class Solution {
+    -day: int
+    -title: String
+    -GUI: scene
+
+    -buildGUI(): Scene
+    +launch()
+}
+
+class Problem {
+    +solve(): Solution
+}
+
+
+@enduml
