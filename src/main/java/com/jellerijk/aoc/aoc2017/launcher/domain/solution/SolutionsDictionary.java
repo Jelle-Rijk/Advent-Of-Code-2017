@@ -7,6 +7,7 @@ import com.jellerijk.aoc.aoc2017.solutions.day1.Day1;
 import com.jellerijk.aoc.aoc2017.solutions.day2.Day2;
 import com.jellerijk.aoc.aoc2017.solutions.day3.Day3;
 import com.jellerijk.aoc.aoc2017.solutions.day4.Day4;
+import com.jellerijk.aoc.aoc2017.solutions.day5.Day5;
 
 public abstract class SolutionsDictionary {
 
@@ -17,6 +18,7 @@ public abstract class SolutionsDictionary {
 		solutions.add(new Day2());
 		solutions.add(new Day3());
 		solutions.add(new Day4());
+		solutions.add(new Day5());
 
 		return solutions;
 	}
