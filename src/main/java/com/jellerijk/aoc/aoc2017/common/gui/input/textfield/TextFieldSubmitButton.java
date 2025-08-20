@@ -18,6 +18,7 @@ public class TextFieldSubmitButton extends TextFieldInput {
 	private Button createSubmitButton() {
 		Button button = new Button(">");
 		button.setPrefSize(USE_COMPUTED_SIZE, USE_COMPUTED_SIZE);
+		button.setMinWidth(30);
 		button.setPadding(new Insets(3));
 		return button;
 	}
