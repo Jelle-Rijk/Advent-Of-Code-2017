@@ -28,9 +28,18 @@
   					<manifest>
   						<addClasspath>true</addClasspath>
   						<classpathPrefix>lib/</classpathPrefix>
-  						<mainClass>com.jellerijk.aoc.aoc2017.Startup</mainClass>
+  						<mainClass>com.jellerijk.aoc.aoc2017.App</mainClass>
   					</manifest>
   				</archive>
+  			</configuration>
+  		</plugin>
+  		
+  		<plugin>
+  			<groupId>org.openjfx</groupId>
+  			<artifactId>javafx-maven-plugin</artifactId>
+  			<version>0.0.8</version>
+  			<configuration>
+  				<mainClass>com.jellerijk.aoc.aoc2017.App</mainClass>
   			</configuration>
   		</plugin>
   		
@@ -58,6 +67,8 @@
   		<version>${junit.version}</version>
   		<scope>test</scope>
   	</dependency>
+  	
+  <!-- JavaFX -->
   
   
   </dependencies>
