@@ -1,6 +1,9 @@
 package com.jellerijk.aoc.aoc2017.solutions.day3;
 
 import com.jellerijk.aoc.aoc2017.launcher.domain.solution.impl.SolutionImpl;
+import com.jellerijk.aoc.aoc2017.solutions.day3.gui.Day3GUI;
+
+import javafx.scene.Scene;
 
 public class Day3 extends SolutionImpl {
 
@@ -10,8 +13,7 @@ public class Day3 extends SolutionImpl {
 
 	@Override
 	protected void initGUI() {
-		// TODO Auto-generated method stub
-
+		setGUI(new Scene(new Day3GUI()));
 	}
 
 }
