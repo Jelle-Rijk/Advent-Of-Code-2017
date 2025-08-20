@@ -40,8 +40,8 @@ public class SpiralMemoryController implements Publisher {
 		return new ManhattanDistanceTask(goal).call();
 	}
 
-	public int getSmallestLargerNumber() {
-		return 0;
+	public int getSmallestLargerNumber() throws Exception {
+		return new SmallestLargerNumberTask(goal).call();
 	}
 
 }

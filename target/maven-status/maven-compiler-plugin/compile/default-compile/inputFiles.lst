@@ -7,6 +7,7 @@
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/launcher/gui/SolutionView.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/launcher/domain/solution/SolutionsRepository.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day3/Day3.java
+/home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day3/domain/ManhattanDistanceTask.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/launcher/domain/solution/SolutionsDictionary.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day2/gui/Day2GUI.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/common/observer/Subscriber.java
@@ -15,12 +16,15 @@
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day1/domain/CaptchaController.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day1/gui/Day1GUI.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/launcher/domain/solution/impl/SolutionLoaderImpl.java
+/home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day3/domain/SmallestLargerNumberTask.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/launcher/gui/MainScreen.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/App.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/common/gui/input/textfield/TextFieldInput.java
+/home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day3/domain/Direction.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day3/gui/Day3GUI.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day1/domain/CaptchaImpl.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day2/domain/Spreadsheet.java
+/home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day3/domain/SpiralMemoryController.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/launcher/domain/solution/SolutionLoader.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/common/gui/input/textfield/TextFieldSubmitButton.java
 /home/Jelle/Projects/aoc2017/src/main/java/com/jellerijk/aoc/aoc2017/solutions/day2/domain/impl/UserResultTask.java
