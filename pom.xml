@@ -9,6 +9,8 @@
   	<maven.compiler.source>21</maven.compiler.source>
   	<maven.compiler.target>21</maven.compiler.target>
   	
+  	<aoc2017.mainClass>com.jellerijk.aoc.aoc2017.App</aoc2017.mainClass>
+  	
   	
   	<!-- this is a variable, it can be used in the rest of the file with ${propertyname}-->
   	<junit.version>5.12.2</junit.version>
@@ -28,7 +30,7 @@
   					<manifest>
   						<addClasspath>true</addClasspath>
   						<classpathPrefix>lib/</classpathPrefix>
-  						<mainClass>com.jellerijk.aoc.aoc2017.App</mainClass>
+  						<mainClass>${aoc2017.mainClass}</mainClass>
   					</manifest>
   				</archive>
   			</configuration>
@@ -39,8 +41,15 @@
   			<artifactId>javafx-maven-plugin</artifactId>
   			<version>0.0.8</version>
   			<configuration>
-  				<mainClass>com.jellerijk.aoc.aoc2017.App</mainClass>
+  				<mainClass>${aoc2017.mainClass}</mainClass>
   			</configuration>
+  			<executions>
+  				<execution>
+  					<goals>
+  						<goal>run</goal>
+  					</goals>
+  				</execution>
+  			</executions>
   		</plugin>
   		
   		
