@@ -25,13 +25,11 @@ public class CPUImpl implements CPU {
 
 	public void executeCycle(boolean strangeJumps) {
 		int jumpDistance = instructions.getJump(pointer);
-		int newInstruction;
-		if (!strangeJumps || jumpDistance < 3) {
-			newInstruction = jumpDistance + 1;
-		} else {
-			newInstruction = jumpDistance - 1;
-		}
-		instructions.setInstruction(pointer, newInstruction);
+		
+		if (!strangeJumps || jumpDistance < 3)
+			instructions.setInstruction(pointer, jumpDistance + 1);
+		else
+			instructions.setInstruction(pointer, jumpDistance - 1);
 		pointer += jumpDistance;
 	}
 

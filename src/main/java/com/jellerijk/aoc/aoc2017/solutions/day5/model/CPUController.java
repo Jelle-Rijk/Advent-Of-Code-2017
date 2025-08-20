@@ -27,6 +27,7 @@ public class CPUController implements Publisher {
 	public void createInstruction(String input, boolean strangeJumps) {
 		String[] lines = input.split("\n");
 		int[] instructions = new int[lines.length];
+		
 		int index = 0;
 		for (String line : input.split("\n")) {
 			try {
@@ -36,8 +37,8 @@ public class CPUController implements Publisher {
 				throw new IllegalArgumentException(String.format("Instruction on line %d is not an integer.", index));
 			}
 		}
-		Instruction instructionSet = new InstructionImpl(instructions);
-		this.cpu = new CPUImpl(instructionSet);
+
+		cpu = new CPUImpl(new InstructionImpl(instructions));
 		cpu.run(strangeJumps);
 		updateSubs();
 	}
