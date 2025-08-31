@@ -3,7 +3,6 @@ package com.jellerijk.aoc.aoc2017.solutions.day6.model.impl;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import com.jellerijk.aoc.aoc2017.solutions.day6.model.AllocatorHistory;
 import com.jellerijk.aoc.aoc2017.solutions.day6.model.Duplicate;
