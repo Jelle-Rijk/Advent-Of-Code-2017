@@ -1,6 +1,5 @@
 package com.jellerijk.aoc.aoc2017.common.gui.input.textarea;
 
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.input.KeyEvent;
 

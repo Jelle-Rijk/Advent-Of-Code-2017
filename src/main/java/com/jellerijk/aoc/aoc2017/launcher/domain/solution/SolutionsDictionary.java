@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.jellerijk.aoc.aoc2017.solutions.day1.Day1;
+import com.jellerijk.aoc.aoc2017.solutions.day10.Day10;
 import com.jellerijk.aoc.aoc2017.solutions.day2.Day2;
 import com.jellerijk.aoc.aoc2017.solutions.day3.Day3;
 import com.jellerijk.aoc.aoc2017.solutions.day4.Day4;
@@ -27,6 +28,7 @@ public abstract class SolutionsDictionary {
 		solutions.add(new Day7());
 		solutions.add(new Day8());
 		solutions.add(new Day9());
+		solutions.add(new Day10());
 
 		return solutions;
 	}
